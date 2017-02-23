@@ -1,0 +1,5 @@
+debian/helper-script/ollydbg usr/bin/
+*.DLL usr/share/ollydbg/
+*.dll usr/share/ollydbg/
+*.EXE usr/share/ollydbg/
+*.HLP usr/share/ollydbg/

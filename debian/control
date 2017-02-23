@@ -1,0 +1,18 @@
+Source: ollydbg
+Section: utils
+Priority: extra
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.ollydbg.de/
+Vcs-Git: ssh://git@git.kali.org/packages/ollydbg.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/ollydbg.git;a=summary
+
+Package: ollydbg
+Architecture: all
+Depends: ${misc:Depends}, wine32
+Description: 32-bit assembler level analysing debugger
+ OllyDbg is a 32-bit assembler level analysing debugger for 
+ Microsoft Windows. Emphasis on binary code analysis makes 
+ it particularly useful in cases where source is 
+ unavailable. 
